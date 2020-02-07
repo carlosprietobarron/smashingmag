@@ -10,24 +10,45 @@
 .smashing-header {
   height: 215px;
   display: flex;
+  justify-content: space-between;
   background-color: rgb(78, 78, 78);
+  align-items: center;
 }
 
 .logo {
-  width: 228px;
-  height: 82px;
+  width: 10%;
   background-color: rgb(199, 199, 199);
 }
 
-.header-list {
+.logo-img {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-nav-wrapper {
+  width: 80%;
+}
+
+.header-nav-list {
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  background-color: seagreen;
 }
 
 .icon-wrapper {
   background-color: rgb(128, 128, 128);
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-nav-icon {
@@ -36,5 +57,13 @@
 }
 
 .search-btn-wrapper {
-  background-color: rgb(199, 199, 199);
+  width: 10%;
+  background-color: blue;
+}
+
+.search-btn {
+  width: 100px;
+  height: 60px;
+  border: 3px solid rebeccapurple;
+  border-radius: 5px;
 }
