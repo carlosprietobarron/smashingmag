@@ -4,7 +4,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: inherit;
+}
+
+body {
+  color: white;
+  background-color: rgb(221, 221, 221);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .smashing-header {
@@ -15,21 +20,14 @@
   align-items: center;
 }
 
-.logo {
-  background-color: rgb(199, 199, 199);
-}
-
 .logo-img {
   width: 150px;
   height: 100px;
-  background-color: red;
+  background-color: rgb(199, 199, 199);
   margin: 0 auto;
   text-align: center;
-  vertical-align: middle;
-}
-
-.header-nav-wrapper {
-  
+  font-size: 1rem;
+  padding: 2.2rem;
 }
 
 .header-nav-list {
@@ -37,7 +35,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: seagreen;
 }
 
 .header-nav-list li {
@@ -51,20 +48,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 2rem;
 }
 
 .header-nav-icon {
   width: 46px;
   height: 50px;
+  margin-bottom: 1rem;
 }
 
 .search-btn-wrapper {
-  background-color: blue;
+  display: block;
+  margin: 0 auto;
 }
 
 .search-btn {
-  width: 100px;
-  height: 60px;
-  border: 3px solid rebeccapurple;
+  width: 150px;
+  height: 50px;
+  border: 3px solid rgb(189, 189, 189);
   border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  background: none;
 }
