@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+.smashing-header {
+  height: 215px;
+  display: flex;
+  background-color: rgb(78, 78, 78);
+}
+
+.logo {
+  width: 228px;
+  height: 82px;
+  background-color: rgb(199, 199, 199);
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  background-color: rgb(128, 128, 128);
+}
+
+.header-nav-icon {
+  width: 46px;
+  height: 50px;
+}
+
+.search-btn-wrapper {
+  background-color: rgb(199, 199, 199);
+}
