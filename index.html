@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet"
-    type="text/css">
+        type="text/css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Smashing Magazine</title>
 </head>
@@ -14,7 +14,9 @@
 <body>
     <header class="smashing-header">
         <div class="logo">
-            <div class="logo-img"><h1 id="logo-text">LOGO</h1></div>
+            <div class="logo-img">
+                <h1 id="logo-text">LOGO</h1>
+            </div>
         </div>
         <nav class="header-nav-wrapper">
             <ul class="header-nav-list">
@@ -57,98 +59,145 @@
             </ul>
         </nav>
         <div class="search-btn-wrapper">
-            
-            <button class= "search-btn"><i class="fa fa-search"></i>Topics</button>
+            <button class="search-btn"><i class="fa fa-search"></i>Topics</button>
         </div>
     </header>
-    <section class="latest-articles">
-        <h1 class="latest">Don’t Miss These Latest
-            Articles</h1>
-        <article class="late-art">
-            <div class="author"></div>
-            <div class="article-info"></div>
-            <div class="article-topics"></div>
-            <div class="arrow-icon"></div>
-        </article>
-        <article class="late-art">
-            <div class="author"></div>
-            <div class="article-info"></div>
-            <div class="article-topics"></div>
-            <div class="arrow-icon"></div>
-        </article>
-    </section>
-    <section class="latest-posts">
-        <h1 class="vertical">Latest Post</h1>
-        <div class="post-wrapper">
-            <div class="post-header"></div>
-            <div class="post-text"></div>
-        </div>
-        <div class="announcement-post"></div>
-        <section class="smashing-tv">
-            <h1>New on smashing tv</h1>
-            <div class="desciption-tv"></div>
-            <button class="link-button"></button>
-            <p>Lorem ipsum dolor</p>
+    <main>
+        <section class="latest-articles">
+            <div class="title-container">
+                <h1 class="latest">Don’t Miss These Latest
+                    Articles</h1>
+            </div>
+            <div class="seriously-btn-wrapper">
+                <button class="seriously-btn">Lorem ipsum.</button>
+            </div>
+            <article class="late-art">
+                <div class="late-art-wrapper">
+                    <div class="author-wrapper">
+                        <div class="photo">Autor's photo</div>
+                        <div class="author">Autor's name <span>wrote</span></div>
+                    </div>
+                    <div class="article-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, provident.</div>
+                    <div class="article-comments">Comments</div>
+                    <div class="article-topics">#Hastags</div>
+                    <div class="arrow-icon"><i class="fas fa-arrow-right"></i></div>
+                </div>
+            </article>
+            <article class="late-art">
+                <div class="late-art-wrapper">
+                    <div class="author-wrapper">
+                        <div class="photo">Autor's photo</div>
+                        <div class="author">Autor's name <span>wrote</span></div>
+                    </div>
+                    <div class="article-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates.</div>
+                    <div class="article-comments">Comments</div>
+                    <div class="article-topics">#Hastags</div>
+                    <div class="arrow-icon"></div>
+                </div>
+            </article>
+            <article class="late-art">
+                <div class="late-art-wrapper">
+                    <div class="author-wrapper">
+                        <div class="photo">Autor's photo</div>
+                        <div class="author">Autor's name <span>wrote</span></div>
+                    </div>
+                    <div class="article-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    <div class="article-comments">Comments</div>
+                    <div class="article-topics">#Hastags</div>
+                    <div class="arrow-icon"></div>
+                </div>
+            </article>
+            <article class="late-art">
+                <div class="late-art-wrapper">
+                    <div class="author-wrapper">
+                        <div class="photo">Autor's photo</div>
+                        <div class="author">Autor's name <span>wrote</span></div>
+                    </div>
+                    <div class="article-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi?</div>
+                    <div class="article-comments">Comments</div>
+                    <div class="article-topics">#Hastags</div>
+                    <div class="arrow-icon"></div>
+                </div>
+            </article>
         </section>
-        <div class="section-footer"></div>
-    </section>
-    <section class="pre-launch">
-        <h1>Ethical Design Handbook</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.tam perferendis minus eveniet quam cum.</p>
-        <button class="link-button"></button>
-        <img src="" alt="" class="book-image">
-    </section>
-    <section class="community-links">
-        <div id="person-of-the-week">
-            <img src="" alt="" class="autor-image">
-            <h2>Person of the week</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur mollitia magnam atque ab corrupti
-                neque nihil maiores, quis suscipit, unde asperiores expedita ducimus temporibus! Dolor, cumque atque!
-                Porro, commodi cum.</p>
-        </div>
-        <div class="community-posts">
-            <img src="" alt="" class="autor-image">
-            <h3>Autor's name</h3>
-            <h2>Post Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur mollitia magnam atque ab corrupti
-                neque nihil maiores, quis suscipit, unde asperiores expedita ducimus temporibus! Dolor, cumque atque!
-                Porro, commodi cum.</p>
-        </div>
-        <div class="section-footer"></div>
-    </section>
-    <section class="book-advertising">
-        <h3>FEATURED SMASHING BOOK</h3>
-        <H1>DESIGN SYSTEMS</H1>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi eos neque obcaecati tenetur iste
-            culpa porro, eius alias, omnis possimus aliquid deleniti maxime! Corrupti nam aut sit officia natus?</P>
-        <button class="link-button short"></button>
-    </section>
-    <section class="curated-posts">
-        <div class="curated-post-wrapper">
-            <p>GUIDES</p>
-            <h1>Title</h1>
-            <ul>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum dolor.</li>
-            </ul>
-        </div>
-        <div class="newsletter">
-            <h1>Smashing Newsletter</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus maxime dolor eligendi eum
-                impedit accusamus a dolores exercitationem, similique suscipit recusandae quae ullam voluptas eveniet,
-                et commodi iure assumenda.</p>
-            <img>
-            <img id="subscribe-button">
-            <p>lorem ipsum</p>
+        <section class="latest-posts">
+            <h1 class="vertical">Latest Post</h1>
+            <div class="post-wrapper">
+                <div class="post-header"></div>
+                <div class="post-text"></div>
+            </div>
+            <div class="announcement-post"></div>
+            <section class="smashing-tv">
+                <h1>New on smashing tv</h1>
+                <div class="desciption-tv"></div>
+                <button class="link-button"></button>
+                <p>Lorem ipsum dolor</p>
+            </section>
             <div class="section-footer"></div>
-        </div>
-    </section>
+        </section>
+        <section class="pre-launch">
+            <h1>Ethical Design Handbook</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.tam perferendis minus eveniet quam cum.</p>
+            <button class="link-button"></button>
+            <img src="" alt="" class="book-image">
+        </section>
+        <section class="community-links">
+            <div id="person-of-the-week">
+                <img src="" alt="" class="autor-image">
+                <h2>Person of the week</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur mollitia magnam atque ab
+                    corrupti
+                    neque nihil maiores, quis suscipit, unde asperiores expedita ducimus temporibus! Dolor, cumque
+                    atque!
+                    Porro, commodi cum.</p>
+            </div>
+            <div class="community-posts">
+                <img src="" alt="" class="autor-image">
+                <h3>Autor's name</h3>
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur mollitia magnam atque ab
+                    corrupti
+                    neque nihil maiores, quis suscipit, unde asperiores expedita ducimus temporibus! Dolor, cumque
+                    atque!
+                    Porro, commodi cum.</p>
+            </div>
+            <div class="section-footer"></div>
+        </section>
+        <section class="book-advertising">
+            <h3>FEATURED SMASHING BOOK</h3>
+            <H1>DESIGN SYSTEMS</H1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi eos neque obcaecati tenetur iste
+                culpa porro, eius alias, omnis possimus aliquid deleniti maxime! Corrupti nam aut sit officia natus?</P>
+            <button class="link-button short"></button>
+        </section>
+        <section class="curated-posts">
+            <div class="curated-post-wrapper">
+                <p>GUIDES</p>
+                <h1>Title</h1>
+                <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h1>Smashing Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus maxime dolor eligendi eum
+                    impedit accusamus a dolores exercitationem, similique suscipit recusandae quae ullam voluptas
+                    eveniet,
+                    et commodi iure assumenda.</p>
+                <img>
+                <img id="subscribe-button">
+                <p>lorem ipsum</p>
+                <div class="section-footer"></div>
+            </div>
+        </section>
+    </main>
     <footer>
         <h3>BROWSE ALL SMASHING...</h3>
         <nav class="footer-nav">
