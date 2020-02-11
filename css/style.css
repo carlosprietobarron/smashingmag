@@ -166,8 +166,9 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-auto-flow: row;
-  background-color: rgb(235, 229, 232);
+  background-color: rgb(213, 215, 216);
   width: 100%;
+  padding-bottom: 75px;
   min-height: 2400px;
 }
 
@@ -193,10 +194,10 @@ body {
   grid-column: span 2;
   display: flex;
   flex-direction: column;
-  background-color: rgb(29, 27, 27);
+  background-color: rgb(130, 127, 127);
   max-width: 99%;
   max-height: 98%;
-  border: solid rgb(29, 27, 27) 1px;
+  border: solid rgb(130, 127, 127) 1px;
   border-radius: 5px;
   align-items: center;
   justify-content: center;
@@ -205,11 +206,39 @@ body {
 
 .ltsmashtv {
   grid-column: span 6;
-  background-color: rgb(20, 19, 19);
-  max-width: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(130, 127, 127);
+  max-width: 100%;
   max-height: 98%;
-  border: solid rgb(20, 19, 19);
+  border: solid rgb(130, 127, 127);
   border-radius: 5px;
+}
+
+.ltsmashtv-count {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.smashtv-btn {
+  width: 250px;
+  height: 50px;
+  border: 3px solid rgb(189, 189, 189);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: black;
+}
+
+.ltsmashtv-description {
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  font-size: larger;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .latest-post-wrapper {
@@ -346,7 +375,7 @@ body {
 
 .book-advertising {
   height: 450px;
-  background-color: rgb(129, 115, 122);
+  background-color: rgb(126, 126, 128);
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
