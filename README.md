@@ -1,17 +1,17 @@
-# Apple.com Page Clone
+# Smashing Magazine Page Heat Map
 
-> This is the project for creating a site using gradients and backgrounds-
+> The goal of this project it's to create a heat map tear down.
 
 ## Built With
 
 - HTML
 - fontawesome
 - CSS
-- Graadients and Backgrounds
+- grids and flexbox.
 
 ## Live Demo
 
-
+https://rawcdn.githack.com/carlosprietobarron/smashingmag/2af4d72ed7e3f7e857d8bdc8e2b8637ec1a6bf33/index.html
 
 
 ## Authors
@@ -20,7 +20,11 @@
 
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
 
-👤 
+👤 Daniel Santander
+
+- Github: @dansantander
+- Twitter: @pordios_cero
+- Linkedin: https://www.linkedin.com/in/daniel-santander-118ab5145/
 
 
 ## 🤝 Contributing
